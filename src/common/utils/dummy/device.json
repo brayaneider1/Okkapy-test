@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Chrome"
+    },
+    {
+      "id": 2,
+      "name": "Safari"
+    },
+    {
+      "id": 3,
+      "name": "Firefox"
+    },
+    {
+      "id": 4,
+      "name": "Windows"
+    },
+    {
+      "id": 5,
+      "name": "Mac OS"
+    },
+    {
+      "id": 6,
+      "name": "iOS"
+    },
+    {
+      "id": 7,
+      "name": "Android"
+    },
+    {
+      "id": 8,
+      "name": "Samsung Noted 5"
+    },
+    {
+      "id": 9,
+      "name": "iPhone Pro"
+    }
+  ]
+}

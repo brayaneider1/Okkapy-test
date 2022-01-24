@@ -1,0 +1,52 @@
+.footer{
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  height: auto;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #f9fafb;
+
+  &__logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-self: flex-start;
+    align-self: flex-start;
+    span{
+      margin-top: 20px;
+    }
+  }
+
+  &__link{
+    display: none;
+   margin: 0 50px 0 20px;
+  }
+
+  
+  .navigation * {
+    margin-top: 20px;
+
+    display: inline;
+  }
+  .navigation {
+    margin-top: 20px;
+  }
+
+  .navigation li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .navigation li a {
+    text-decoration: none;
+    color: #64677c;
+    font-weight: 600;
+    font-size: 12px;
+    &:focus {
+      color: #a2a2af;
+    }
+  }
+
+}

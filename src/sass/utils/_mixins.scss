@@ -1,0 +1,53 @@
+@mixin fontFace($name, $file, $weight: normal) {
+  $path: "../assets/fonts/" + $file;
+  @font-face {
+    font-family: $name;
+    src: url($path + ".woff") format(woff), url($path + ".ttf") format(truetype), url($path + ".otf") format(opentype);
+    font-weight: $weight;
+  }
+}
+
+@mixin btn-rectangle($color, $bg-color, $b-color, $f-weigh) {
+  background: $bg-color !important;
+  color: $color !important;
+  font-weight: $f-weigh !important;
+  font-size: 20px !important;
+  border-radius: 17px ;
+  border: $b-color !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin btn-round($color, $bg-color, $b-color, $f-weigh) {
+  background: $bg-color !important;
+  color: $color !important;
+  font-weight: $f-weigh !important;
+  font-size: 20px !important;
+  border-radius: 47px !important;
+  border: $b-color !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin show-gradients() {
+  border: 2px solid $primary-color !important;
+    .price {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px !important;
+      line-height: 19px;
+      color: white !important;
+    }
+    .img-genre {
+      display: none;
+      background: $linear-primary;
+      color: $linear-primary;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .img-genre-linear {
+      display: block !important;
+    }
+}

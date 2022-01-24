@@ -1,0 +1,63 @@
+.sidebar {
+  background-color: white;
+  padding: 20px 20px;
+  height: 100%;
+  width: 150px;
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    li {
+      cursor: pointer;
+      a {
+        background: #f7f9fb;
+        padding: 10px;
+        border-radius: 20px;
+        margin: 30px 0;
+        display: flex;
+        &:focus {
+          background: #009ef7;
+        }
+        &:active {
+          background: #009ef7;
+        }
+
+        svg {
+          text-decoration: none;
+          color: #e5e7ec;
+          font-weight: 600;
+          font-size: 35px;
+          &:focus {
+            color: #e3e5ea;
+          }
+        }
+      }
+    }
+  }
+  &__logout {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logout {
+      background: #f7f9fb;
+      padding: 10px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      width: auto;
+      justify-content: center;
+      cursor: pointer;
+      margin: auto;
+      svg {
+        width: auto;
+        font-size: 35px;
+        margin: 0;
+        color: #aeb3c0;
+      }
+    }
+  }
+}

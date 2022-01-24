@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "USA"
+    },
+    {
+      "id": 2,
+      "name": "United Kingdom"
+    },
+    {
+      "id": 3,
+      "name": "Norway"
+    },
+    {
+      "id": 4,
+      "name": "Japan"
+    },
+    {
+      "id": 5,
+      "name": "Italy"
+    }
+  ]
+}

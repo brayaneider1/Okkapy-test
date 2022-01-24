@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  color: white;
+  background: #2c294b;
+  flex-wrap: wrap;
+  padding: 50px 20px 150px 20px;
+  &__hamburguer {
+    display: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  h2 {
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: "Konnect", sans-serif !important;
+  }
+
+  .navigation * {
+    margin-top: 20px;
+
+    display: inline;
+  }
+  .navigation {
+    margin-top: 20px;
+  }
+
+  .navigation li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .navigation li a {
+    text-decoration: none;
+    color: #64677c;
+    font-weight: 600;
+    font-size: 12px;
+    &:focus {
+      color: #a2a2af;
+    }
+  }
+
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-self: flex-start;
+    align-self: flex-start;
+    z-index: 10;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  &__options {
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;
+    flex-wrap: wrap;
+
+    .input-component {
+      margin: 0 10px 10px 0;
+    }
+    .item {
+      position: relative;
+      background: #403e5d;
+      align-items: center;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 0 5px;
+      margin-bottom: 10px;
+      .dot {
+        height: 7px;
+        width: 7px;
+        background-color: #4fc887;
+        border-radius: 50%;
+        position: absolute;
+        top: -3px;
+        left: 15px;
+      }
+      svg {
+        color: white;
+      }
+    }
+  }
+}
+
+.content-menu {
+  margin-top: -10px;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 100px 20px 20px 20px;
+}

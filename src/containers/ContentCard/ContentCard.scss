@@ -1,0 +1,47 @@
+.content-card {
+  padding: 0 100px;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  margin: -50px auto 10px auto;
+  -webkit-box-shadow: 0.5px 0.5px 6px -0.5px rgba(0, 0, 0, 0.213);
+  -moz-box-shadow: 0.5px 0.5px 6px -0.5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0.5px 0.5px 6px -0.5px rgba(0, 0, 0, 0.124);
+  &__head {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    h3 {
+      font-size: 18px;
+      color: #5f5d62;
+      font-weight: 800;
+      margin-bottom: 30px;
+    }
+    .lastest {
+      margin-bottom: 30px;
+
+      select {
+        width: auto;
+        background-color: #f5f8fa;
+        padding: 10px;
+        border-radius: 10px;
+        color: #5f5d62;
+        font-weight: 400;
+      }
+      button {
+        border-radius: 10px;
+        color: white;
+        font-weight: 600;
+        padding: 10px;
+        margin-left: 20px;
+        background-color: #009ef7;
+      }
+    }
+  }
+}
